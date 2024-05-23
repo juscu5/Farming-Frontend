@@ -1,0 +1,3 @@
+export const GET_WORKLOAD = 'GET_WORKLOAD';
+export const EDIT_WORKLOAD = 'EDIT_WORKLOAD'
+export const FETCH_ERROR = 'FETCH_ERROR';

@@ -1,0 +1,13 @@
+.visible{
+    text-align: center;
+    position: relative;
+    top: 100%;
+    .loading-gif{
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 1;
+        margin: auto;
+    }
+}

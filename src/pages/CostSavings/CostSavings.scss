@@ -1,0 +1,47 @@
+.cost-savings{
+    button {
+        padding: 10px 12px;
+        height: 45px;
+        margin: 4px 0;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
+        font-size: 0.9vw!important;
+        background-image: linear-gradient(to right, #203764, #5178c8, #203764, #5178c8);
+        color: #ffff!important;
+        cursor: pointer;
+        border-radius: 5px!important;
+        background-size: 300% 100%;
+        -moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;        
+      }
+    
+      button:hover {
+        background-position: 100% 0;
+        -moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+      }
+      .table-cost{
+        text-align: center;
+        .center {
+            vertical-align: middle;
+        }
+        .text-center{
+            text-align: center;
+        }
+        .hoverable-account:hover,
+        .hoverable-account:hover + .hoverable-amount{
+            background-color: #f0f0f0; 
+            cursor: pointer; 
+        }
+        thead th {
+            background-color: #203764!important;
+            color: yellow;
+        }
+        th {
+            color: #203764
+        }
+    }
+}

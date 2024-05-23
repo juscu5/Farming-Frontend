@@ -1,0 +1,1 @@
+import{j as o}from"./index-Cy1U88sa.js";import{u as l,b as m}from"./formik.esm-Ck2ofJqQ.js";import{f as r}from"./selectors-B3ZcmyZz.js";const d=({...t})=>{const{setFieldValue:s}=l(),[e]=m(t);return o.jsx(r,{...e,...t,className:"date",placeholderText:"mm/dd/yyyy",selected:e.value&&new Date(e.value)||null,onChange:a=>{s(e.name,a)}})};export{d as D};
